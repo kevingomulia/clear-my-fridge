@@ -1,7 +1,7 @@
 import streamlit as st
 import requests
 import re
-from .util import is_match
+from utils import is_match
 
 API_KEY = st.secrets["auth"]["api_key"]
 st.set_page_config(page_title="🥕 Fridge Cleaner", layout="wide")
